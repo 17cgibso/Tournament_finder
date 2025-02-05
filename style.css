@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.table-container {
+    width: 80%;
+    flex-shrink: 0;
+    margin-right: 20px;
+}
+
+.filter-container {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+.filter-box {
+    width: 100%;
+}
+
+#tournament-table, #watchlist-table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.btn {
+    border: 1px solid black;
+    margin: 2px;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
