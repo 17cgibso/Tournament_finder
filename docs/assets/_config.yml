@@ -1,0 +1,15 @@
+title: "Tournament Finder"
+description: "A website to find and track golf tournaments."
+baseurl: "" # the subpath of your site, e.g., /blog
+url: "https://17cgibso.github.io" # the base URL of your site without trailing slash
+theme: jekyll-theme-primer
+markdown: kramdown
+
+# Build settings
+source: docs
+destination: ./_site
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
